@@ -37,16 +37,15 @@ export default function TelaLogin() {
       }}
       style={{ flex: 1 }}>
       <SafeAreaView style={styles.EstiloSafeAreaView}>
-        <Text style={styles.EstiloTextoCentralizado}>Bem-vindo ao seu buscador de músicas favorito</Text>
-        <Text style={styles.EstiloTextoCentralizado2}>ENTRE NO SEU PERFIL E CURTA!</Text>
-
+        <Image source={require('../images/logo.png')}
+          style={styles.Estilologo}
+          resizeMode="contain" />
         <Image
           source={{
             uri: 'https://cdn-icons-png.flaticon.com/512/5550/5550463.png',
           }}
           style={styles.EstiloImagem}
         />
-
         <TextInput
           placeholder="USUÁRIO"
           placeholderTextColor="grey"
@@ -85,6 +84,11 @@ const styles = StyleSheet.create({
     padding: 20,
   },
 
+  Estilologo: {
+    width: 200,
+    height: 100,
+  },
+
   EstiloTexto: {
     width: '70%',
     borderWidth: 1,
@@ -102,21 +106,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'pink',
     borderRadius: 90,
     padding: 5,
-  },
-
-  EstiloTextoCentralizado: {
-    marginBottom: 20,
-    textAlign: 'center',
-    fontSize: 20,
-    color: 'purple',
-    fontWeight: 'bold',
-  },
-
-  EstiloTextoCentralizado2: {
-    textAlign: 'center',
-    fontSize: 15,
-    color: 'purple',
-    marginBottom: 30,
   },
 
   EstiloImagem: {
