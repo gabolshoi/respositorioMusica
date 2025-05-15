@@ -42,7 +42,7 @@ Este projeto requer uma chave de cliente e redirecionamento registrados no [Spot
 
 ```bash
 # Clone o repositório
-git clone https://github.com/gabolshoi/respositorioMusica.git
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
 # Acesse a pasta do projeto
 cd spotify-explorer
