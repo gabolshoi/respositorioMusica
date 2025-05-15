@@ -37,7 +37,8 @@ export default function TelaLogin() {
       }}
       style={{ flex: 1 }}>
       <SafeAreaView style={styles.EstiloSafeAreaView}>
-        <Text style={styles.EstiloTextoCentralizado}>ENTRE NO SEU PERFIL</Text>
+        <Text style={styles.EstiloTextoCentralizado}>Bem-vindo ao seu buscador de músicas favorito</Text>
+        <Text style={styles.EstiloTextoCentralizado2}>ENTRE NO SEU PERFIL E CURTA!</Text>
 
         <Image
           source={{
@@ -109,6 +110,13 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: 'purple',
     fontWeight: 'bold',
+  },
+
+  EstiloTextoCentralizado2: {
+    textAlign: 'center',
+    fontSize: 15,
+    color: 'purple',
+    marginBottom: 30,
   },
 
   EstiloImagem: {
